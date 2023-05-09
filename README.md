@@ -1,6 +1,6 @@
 # Box Office Analysis
 
-**Authors**: James Meredith, Johnathan Brown
+**Authors**: James Meredith, Johnathan Brown, Samuel Song
 
 ## Overview
 
@@ -39,7 +39,7 @@ Based on the analysis the authors
 
 Please review our full analysis in [our Jupyter Notebook](./aviation-analysis.ipynb) and [our presentation](./presentation.pdf).
 
-For any additional questions, please contact James Meredith at jam637.jlm@gmail.com and Johnathan Brown at.
+For any additional questions, please contact James Meredith at <jam637.jlm@gmail.com>, Johnathan Brown at <jonnie.brown4@gmail.com>, and Samuel Song at <samueld.song@gmail.com>.
 
 ## Repository Structure
 
