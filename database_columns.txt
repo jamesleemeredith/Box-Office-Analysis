@@ -1,0 +1,51 @@
+bom:
+title, studio, domestic_gross, foreign_gross, year
+
+imdb:
+-----
+Table: movie_basics
+movie_id, primary_title, original_title, start_year,
+       runtime_minutes, genres
+
+Table: directors
+movie_id, person_id
+
+Table: known_for
+person_id, movie_id
+
+Table: movie_akas
+movie_id, ordering, title, region, language, types,
+       attributes, is_original_title
+
+Table: movie_ratings
+movie_id, averagerating, numvotes
+
+Table: persons
+person_id, primary_name, birth_year, death_year,
+       primary_profession
+
+Table: principals
+movie_id, ordering, person_id, category, job, characters
+
+Table: writers
+movie_id, person_id
+----
+
+rt_movie:
+id, synopsis, rating, genre, director, writer,
+       theater_date, dvd_date, currency, box_office, runtime,
+       studio
+
+rt_reviews:
+id, review, rating, fresh, critic, top_critic, publisher,
+       date
+
+tmdb_moviews:
+Unnamed: 0, genre_ids, id, original_language, original_title,
+       popularity, release_date, title, vote_average, vote_count
+
+tn_movie_budgets:
+id, release_date, movie, production_budget, domestic_gross,
+       worldwide_gross
+
+
