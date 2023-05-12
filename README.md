@@ -2,7 +2,7 @@
 
 **Authors**: James Meredith, Jonathan Brown, Samuel Song
 
-Please review our full analysis in our Jupyter Notebooks, [Data Cleaning,](./code/data_cleaning.ipynb) [Exploratory Data Analysis (EDA)](./code/eda_notebook.ipynb),and our [presentation slides](./presentation.pdf).
+Please review our full analysis in our Jupyter Notebooks: [Data Cleaning](./code/data_cleaning.ipynb) and [Exploratory Data Analysis (EDA)](./code/eda_notebook.ipynb), as well as our [presentation slides](./presentation.pdf).
 
 ## Overview
 
@@ -123,7 +123,7 @@ Based on the analysis of the authors:
 
 ## For More Information
 
-Please review our full analysis in our Jupyter Notebooks, [Data Cleaning,](./code/data_cleaning.ipynb) [Exploratory Data Analysis (EDA)](./code/eda_notebook.ipynb),and our [presentation slides](./presentation.pdf).
+Please review our full analysis in our Jupyter Notebooks: [Data Cleaning](./code/data_cleaning.ipynb) and [Exploratory Data Analysis (EDA)](./code/eda_notebook.ipynb), as well as our [presentation slides](./presentation.pdf).
 
 For any additional questions, please contact James Meredith at jam637.jlm@gmail.com, Jonathan Brown at jonnie.brown4@gmail.com and Samuel Song at samueld.song@gmail.com
 
