@@ -14,20 +14,26 @@ We have used data from [The Box Office Mojo](https://www.boxofficemojo.com), [Ro
 
 Our analysis began by understanding and cleaning the datasets provided. Different types of information were scattered throughout each dataset. So it was important for us to understand what information came from which dataset:
 - IMDB:
-    - Base movie info
+    - Basic movie info
     - Run Time
-    - AKA's (used to separate by regon, want US based only)
     - Directors
+    - Writers
+    - Movie Ratings
+    - Genre
+    - AKA's (which helped us filter by region)
 - The Numbers DB (TNDB)
-    - Budgets
-    - Worldwide Profits
+    - Production Budget
+    - Domestic Gross
+    - Foreign Gross
 - Box Office Mojo (BOM)
-    - Worldwide gross
-- Rotten Tomatoes
+    - Worldwide Gross
+- Rotten Tomatoes 2 datasets
     - Movie Ratings (R, PG-13, PG, etc)
     - Approval Ratings
+    - Genre
 <br>
-We opted out of using The Movie Database(TMDB) because it had only information based on popularity on their website. We found this to be too abstract and a biased representation of movie-goers. 
+* We opted out of using The Movie Database(TMDB) because it had only information based on popularity on their website. We found this to be too abstract and a biased representation of movie-goers. 
+* The IMBD dataset is too large of a file to upload to github unzipped.
 <br>
 
 ## Methods
@@ -43,7 +49,7 @@ To help guide our exploration, we brainstormed several ideas for interesting com
 * Runtime vs Budget
 * Approval Rating vs Gross
 
-By using IMDB as the main database, we merged together the financial data points from the Box Office Mojo and The Numbers datasets to the IMDB dataset by movie title to get a list of movies to analyze. This list is what was used to get the top average grossing directors, a list of movies with a net profit/net loss, and runtime vs worldwide gross. 
+We added the Domestic Gross and Foreign Gross metrics in The Numbers dataset to make a Worldwide Gross column to be used with the Box Offic Mojo dataset. By using IMDB as the main database, we merged together the financial data points from the Box Office Mojo and The Numbers datasets to the IMDB dataset by movie title to get a list of movies to analyze. This list is what was used to get the top average grossing directors, a list of movies with a net profit/net loss, and runtime vs worldwide gross. We combined the two Rotten Tomatoes datasets to compare movie ratings with approval ratings.
 
 <br>
 The roadblocks we encountered were mostly in the cleaning process and dealt with an incomplete database.
