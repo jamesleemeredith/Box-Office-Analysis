@@ -82,33 +82,10 @@ Budgeting: It was found that having a low budget of $0 to $16 million had only a
 - The frequency of the data was extremely skewed right
 - Median was only $16m while mean was $32m and standard deviation was $45m!
 - One standard deviation to the left yieled a negative budget, which makes no sense
-- It was decided to use the median as the cutoff for low budgets, as it may reflect real life standards. More low end budget films should exist.our intuition was mostly correct. Action/Animation were among the top grossing films, and many top directors were animators or action movie directors. 
-
-### Visualization of Budget vs Profit
-
-<br>
-Budgeting: It was found that having a low budget of $0 to $16 million had only a 48% success rate of having a positive profit. Mid budgets from $16 to $77.5 million had about a 65% success rate, and high budgets above $77.5 million had an 88.6% success rate. It's almost like gambling because spending less has a higher rate of failing. Spending more has a higher rate of success, BUT it is not guaranteed success. One can have high confidence in the film if opting for a high budget film. 
-- After some research, there was no concrete answer for what is considered low, mid, high budget films (many different answers were found)
-- These numbers for budgeting came from some statistical calculations
-- The frequency of the data was extremely skewed right
-- Median was only $16m while mean was $32m and standard deviation was $45m!
-- One standard deviation to the left yieled a negative budget, which makes no sense
-- It was decided to use the median as the cutoff for low budgets, as it may reflect real life standards. More low end budget films should exist.
+- It was decided to use the median as the cutoff for low budgets, as it may reflect real life standards. More low end budget films should exist. 
 
 ### Visualization of Runtime vs Average Worldwide Gross
-
-<br>
-Runtime: According to [this article,](https://stephenfollows.com/are-hollywood-movies-getting-longer/#:~:text=Length%20of%20Hollywood%20movies&text=Half%20of%20all%20Hollywood%20movies,shortest%20are%20animations%20and%20documentaries.) half of Hollywood films are between 96 and 120 minutes long. Using this as a category indicator for runtime, we looked at the average worldwide gross for movies over 120 minutes, 96 minutes to 120 minutes, and below 96 minutes. Movies over 120 minutes, or 2 hours, have the superior average gross in millions.
-
-### Visualiation of Genre vs Average Worldwide Gross
-
-<br>
-Genre: The top three grossing genres were Action, Animation, and Science Fiction.
-
-### Visualization of Top Director vs Average Net Profit
-
-### Visualization of Runtime vs Average Worldwide Gross
-![graph2](./images/runtime_gross.jpg)
+![graph2](./images/runtime_gross.png)
 <br>
 Runtime: According to [this article,](https://stephenfollows.com/are-hollywood-movies-getting-longer/#:~:text=Length%20of%20Hollywood%20movies&text=Half%20of%20all%20Hollywood%20movies,shortest%20are%20animations%20and%20documentaries.) half of Hollywood films are between 96 and 120 minutes long. Using this as a category indicator for runtime, we looked at the average worldwide gross for movies over 120 minutes, 96 minutes to 120 minutes, and below 96 minutes. Movies over 120 minutes, or 2 hours, have the superior average gross in millions.
 
@@ -131,24 +108,8 @@ Based on the analysis of the authors:
     - This may be influenced by budget. More runtime = more budget.
 - Genres: Action, Animation, and Science Fiction have proven to be solid genre choices to make films.
 - Directors: The top net profit directors were mostly comprised of animation or action directors. This may also supplement the above claim of animated/action being the superior genre choice.
-Based on the analysis of the authors:
-- Budget: High end budget films are a heavy investment, but tend to succeed more.
-    - Low budget films tend to net a loss profit but are a low investment compared to other budgets.
-    - Mid budget films have little more than a 50% chance of being successful for a more hefty 'buy in'.
-    - Ultimately this is personally up to the studio
-- Runtime: A runtime of 2 hours or more is shown to have higher gross than movies less than 2 hours.
-    - This may be influenced by budget. More runtime = more budget.
-- Genres: Action, Animation, and Science Fiction have proven to be solid genre choices to make films.
-- Directors: The top net profit directors were mostly comprised of animation or action directors. This may also supplement the above claim of animated/action being the superior genre choice.
 
 ### Next Steps
-
-- Further look into budgets of animated movies vs live action movies.
-    - Maybe voice actors cost less than live action actors.
-    - Maybe there's a better ROI for animated movies vs live action movies.
-- Look into directors according to genre in order to give the best director recommendation.
-- Look into the how movie runtimes have changed over time.
-- See how profitable genres have been over time.
 
 - Further look into budgets of animated movies vs live action movies.
     - Maybe voice actors cost less than live action actors.
@@ -160,10 +121,9 @@ Based on the analysis of the authors:
 ## For More Information
 
 Please review our full analysis in our Jupyter Notebooks, [Data Cleaning here,](./code/data_cleaning.ipynb) [Exploratory Data Analysis (EDA) here](./code/eda_notebook.ipynb),and [our presentation slides](./presentation.pdf).
-Please review our full analysis in our Jupyter Notebooks, [Data Cleaning here,](./code/data_cleaning.ipynb) [Exploratory Data Analysis (EDA) here](./code/eda_notebook.ipynb),and [our presentation slides](./presentation.pdf).
 
 For any additional questions, please contact James Meredith at jam637.jlm@gmail.com, Jonathan Brown at jonnie.brown4@gmail.com and Samuel Song at samueld.song@gmail.com
-For any additional questions, please contact James Meredith at jam637.jlm@gmail.com, Jonathan Brown at jonnie.brown4@gmail.com and Samuel Song at samueld.song@gmail.com
+
 
 ## Repository Structure
 
