@@ -2,7 +2,7 @@
 
 **Authors**: James Meredith, Jonathan Brown, Samuel Song
 
-Please review our full analysis in our Jupyter Notebooks, [Data Cleaning,](./code/data_cleaning.ipynb) [Exploratory Data Analysis (EDA)](./code/eda_notebook.ipynb),and [our presentation slides](./presentation.pdf).
+Please review our full analysis in our Jupyter Notebooks, [Data Cleaning,](./code/data_cleaning.ipynb) [Exploratory Data Analysis (EDA)](./code/eda_notebook.ipynb),and our [presentation slides](./presentation.pdf).
 
 ## Overview
 
@@ -46,15 +46,16 @@ To help guide our exploration, we brainstormed several ideas for interesting com
 By using IMDB as the main database, we merged together the financial data points from the Box Office Mojo and The Numbers datasets to the IMDB dataset by movie title to get a list of movies to analyze. This list is what was used to get the top average grossing directors, a list of movies with a net profit/net loss, and runtime vs worldwide gross. 
 
 <br>
-The roadblocks we encountered were mostly in the cleaning process and dealt with an incomplete database. 
-- Avatar was being shown as a Japanese horror film
-- Titanic was also being shown as a Japanese film
-    - Appeared that James Cameron's earlier films (pre Avatar-2) were not in the IMDB database, so merging the financials dataset to IMDB had put together James Cameron's films onto different directors of the same movie name
-    - This was remedied by selecting US based movies/directors only. Ultimately this had Titanic and Avatar not selected at all in the final table. 
-    - It then became apparent that the databases being used were quite incomplete
-- Multiple genres were listed in a single column. So intial .groupby() methods had yieled anywhere from a single genre to a cluster of three genres.
-    - This did not give us a clear picture of genre distribution
-    - Remedied by creating separate columns
+The roadblocks we encountered were mostly in the cleaning process and dealt with an incomplete database.
+
+* Avatar was being shown as a Japanese horror film.
+* Titanic was also being shown as a Japanese film.
+    * It appeared that James Cameron's earlier films (pre Avatar-2) were not in the IMDB database, so merging the financials dataset to IMDB had put together James Cameron's films onto different directors of the same movie name.
+    * This was remedied by selecting US based movies/directors only. Ultimately this had Titanic and Avatar not selected at all in the final table. 
+    * It then became apparent that the databases being used were quite incomplete.
+* Multiple genres were listed in a single column. So intial .groupby() methods had yieled anywhere from a single genre to a cluster of three genres.
+    - This did not give us a clear picture of genre distribution.
+    - This was remedied by creating separate columns.
     - **JAMES FILL IN HERE HOW IT WAS DONE**
 
 <br>
@@ -67,11 +68,7 @@ After exploring each category, we decided that the four categories we wanted to 
 
 ## Results
 
-We started the project by looking at the top grossing movies overall from google. The list mostly comprised of action/animation films, so we intuitively believed action/animation would do the best.
-<br>
-We started the project by looking at the top grossing movies overall from google. The list mostly comprised of action/animation films, so we intuitively believed action/animation would do the best.
-<br>
-Results of the analysis revealed our intuition was mostly correct. Action/Animation were among the top grossing films, and many top directors were animators or action movie directors. 
+We started the project by looking at the top grossing movies overall from google. The list mostly comprised of action/animation films, so we intuitively believed action/animation would do the best. Results of the analysis revealed our intuition was mostly correct. Action/Animation were among the top grossing films, and many top directors were animators or action movie directors. 
 
 ### Visualization of Budget vs Profit
 ![graph1](./images/budget_profit.jpg)
@@ -120,7 +117,7 @@ Based on the analysis of the authors:
 
 ## For More Information
 
-Please review our full analysis in our Jupyter Notebooks, [Data Cleaning here,](./code/data_cleaning.ipynb) [Exploratory Data Analysis (EDA) here](./code/eda_notebook.ipynb),and [our presentation slides](./presentation.pdf).
+Please review our full analysis in our Jupyter Notebooks, [Data Cleaning,](./code/data_cleaning.ipynb) [Exploratory Data Analysis (EDA)](./code/eda_notebook.ipynb),and our [presentation slides](./presentation.pdf).
 
 For any additional questions, please contact James Meredith at jam637.jlm@gmail.com, Jonathan Brown at jonnie.brown4@gmail.com and Samuel Song at samueld.song@gmail.com
 
