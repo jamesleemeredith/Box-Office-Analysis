@@ -93,7 +93,7 @@ Budgeting: It was found that having a low budget of $0 to $16 million had only a
 Runtime: According to [this article,](https://stephenfollows.com/are-hollywood-movies-getting-longer/#:~:text=Length%20of%20Hollywood%20movies&text=Half%20of%20all%20Hollywood%20movies,shortest%20are%20animations%20and%20documentaries.) half of Hollywood films are between 96 and 120 minutes long. Using this as a category indicator for runtime, we looked at the average worldwide gross for movies over 120 minutes, 96 minutes to 120 minutes, and below 96 minutes. Movies over 120 minutes, or 2 hours, have the superior average gross in millions.
 
 ### Visualiation of Genre vs Average Worldwide Gross
-![graph3](./images/budget_profit.jpg)
+![graph3](./images/genre_gross.png)
 <br>
 Genre: The top three grossing genres were Action, Animation, and Science Fiction.
 
